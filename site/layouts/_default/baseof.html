@@ -1,6 +1,48 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <title>BILDTEXTERINNEN</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <style>
+      body {
+        background-color: #32454C;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .container-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+      }
+      .container-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+    </style>
+  </head>
   <body class="sans-serif">
-    <p>coming soon...</p>
+    <div class="container">
+    <div class="container-top">
+      <img src="img/logo.gif" alt="logo">
+      <img src="img/comingsoon.png" alt="coming soon">
+    </div>
+    <div class="container-bottom">
+      <a href="mailto:irene@bildtexterinnen.de">
+      <img src="img/ene.png" alt="irene">
+      </a>
+      <a href="mailto:silke@bildtexterinnen.de">
+      <img src="img/silke.png" alt="silke">
+      </a>
+    </div>
+    </div>
   </body>
 </html>
