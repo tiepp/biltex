@@ -6,12 +6,20 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <style>
+      html, body {
+        height: 100%;
+      }
       body {
+        margin: 0;
         background-color: #32454C;
       }
       .container {
+        height: 100%;
+        padding: 0;
+        margin: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
       }
       .container-top {
@@ -21,11 +29,21 @@
         flex-direction: column;
         margin-top: 40px;
       }
+      .container-bottom > a {
+        align-self: center;
+        margin: 20px 50px;
+      }
       .container-bottom {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
       }
     </style>
   </head>
